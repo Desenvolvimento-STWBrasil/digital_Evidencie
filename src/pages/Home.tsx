@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 
 function Home() {
 
-/*   const mainFeatures = [
-    'Recruso Incrivel 1',
-    'Automoção Inteligente',
-    'Relatórios Detalhados',
-    'Integração com Ferramentas Populares'
-  ]; */
+  /*   const mainFeatures = [
+      'Recruso Incrivel 1',
+      'Automoção Inteligente',
+      'Relatórios Detalhados',
+      'Integração com Ferramentas Populares'
+    ]; */
 
   return (
     <div className="font-sans text-texto">
@@ -117,7 +117,7 @@ function Home() {
               <div className="text-texto md:w-1/2">
                 <p className="text-sm mb-2 tracking-[.3em]">Recurso</p>
                 <h2 className="text-xl font-semibold mb-2">Desbloqueie Todo o Potencial</h2>
-                <p className="text-sm mb-8">
+                <p className="text-sm md:text-base mb-8">
                   Acesso a funcionalidades exclusivas que aumentam sua produtividade, otimizam fluxos e desbloqueiam o verdadeiro potencial da ferramenta.
                 </p>
 
@@ -141,7 +141,7 @@ function Home() {
               <div className="text-texto md:w-1/2">
                 <p className="text-sm mb-2 tracking-[.3em]">Recurso</p>
                 <h2 className="text-xl font-semibold mb-2">Desbloqueie Todo o Potencial</h2>
-                <p className="text-sm mb-8">
+                <p className="text-sm md:text-base mb-8">
                   Acesso a funcionalidades exclusivas que aumentam sua produtividade, otimizam fluxos e desbloqueiam o verdadeiro potencial da ferramenta.
                 </p>
 
@@ -170,7 +170,7 @@ function Home() {
                 <div>
                   <p className="text-sm text-texto mb-4 tracking-[.3em]">Recurso</p>
                   <h2 className="text-xl text-texto font-semibold mb-6">Desbloqueie Todo o Potencial</h2>
-                  <p className="text-sm text-texto mb-4">
+                  <p className="text-sm text-texto mb-4 md:text-base">
                     Acesso a funcionalidades exclusivas que aumentam sua produtividade, otimizam fluxos e desbloqueiam o verdadeiro potencial da ferramenta.
                   </p>
                 </div>
@@ -190,7 +190,7 @@ function Home() {
                 <div>
                   <p className="text-sm text-texto mb-4 tracking-[.3em]">Recurso</p>
                   <h2 className="text-xl text-texto font-semibold mb-6">Desbloqueie Todo o Potencial</h2>
-                  <p className="text-sm text-texto mb-4">
+                  <p className="text-sm text-texto mb-4 md:text-base">
                     Acesso a funcionalidades exclusivas que aumentam sua produtividade, otimizam fluxos e desbloqueiam o verdadeiro potencial da ferramenta.
                   </p>
                 </div>
@@ -210,7 +210,7 @@ function Home() {
                 <div>
                   <p className="text-sm text-texto mb-4 tracking-[.3em]">Recurso</p>
                   <h2 className="text-xl text-texto font-semibold mb-6">Desbloqueie Todo o Potencial</h2>
-                  <p className="text-sm text-texto mb-4">
+                  <p className="text-sm text-texto mb-4 md:text-base">
                     Acesso a funcionalidades exclusivas que aumentam sua produtividade, otimizam fluxos e desbloqueiam o verdadeiro potencial da ferramenta.
                   </p>
                 </div>
