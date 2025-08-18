@@ -43,7 +43,7 @@ function Key() {
                     </button>
                 </div>
             </div>
-            <div className="mt-8">
+            <div className="mt-4">
                 {/* Aqui você pode adicionar links para download do software, etc. */}
                 <a href="#" className="flex md:w-fit w-full bg-principal text-white py-4 px-8 rounded-lg font-semibold hover:bg-opacity-90 transition-all">
                     Baixar Software
