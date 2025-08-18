@@ -51,7 +51,7 @@ function Home() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Imagem ou Placeholder do Software */}
-            <div className="bg-[#12273A] text-white rounded-lg p-8">
+            <div className="flex flex-col w-full bg-titulo text-white rounded-lg p-8">
               <p className="text-sm text-gray-400 mb-1">Recurso</p>
               <h2 className="text-xl font-semibold mb-3">Desbloqueie Todo o Potencial</h2>
               <p className="text-sm text-gray-300 mb-4">
@@ -65,13 +65,11 @@ function Home() {
               <div className="rounded-lg my-8 flex justify-center w-full">
                 <img className="w-full" src="https://placehold.co/600x400" alt="" />
               </div>
-              <Link to='/premium'>
-                <button className="w-full border border-principal text-white font-medium px-4 py-4 hover:text-blue-300 rounded-lg transition duration-200">
-                  Conheça a Versão Premium
-                </button>
+              <Link to='/premium' className="w-full border border-principal text-white font-medium px-4 py-4 hover:text-blue-300 rounded-lg transition duration-200 text-center">
+                Conheça a Versão Premium
               </Link>
             </div>
-            <div className="bg-[#12273A] text-white rounded-lg p-8">
+            <div className="flex flex-col w-full bg-titulo text-white rounded-lg p-8">
               <p className="text-sm text-gray-400 mb-1">Recurso</p>
               <h2 className="text-xl font-semibold mb-3">Desbloqueie Todo o Potencial</h2>
               <p className="text-sm text-gray-300 mb-4">
@@ -85,10 +83,8 @@ function Home() {
               <div className="rounded-lg my-8 flex justify-center w-full">
                 <img className="w-full" src="https://placehold.co/600x400" alt="" />
               </div>
-              <Link to='/premium'>
-                <button className="w-full border border-principal text-white font-medium px-4 py-4 hover:text-blue-300 rounded-lg transition duration-200">
-                  Conheça a Versão Premium
-                </button>
+              <Link to='/premium' className="w-full border border-principal text-white font-medium px-4 py-4 hover:text-blue-300 rounded-lg transition duration-200 text-center">
+                Conheça a Versão Premium
               </Link>
             </div>
           </div>
@@ -114,17 +110,15 @@ function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-6">
             {/* Imagem ou Placeholder do Software */}
             <div className="shadow-md rounded-lg p-8 flex flex-col md:flex-row gap-6 md:items-end">
-              <div className="text-texto md:w-1/2">
+              <div className="flex flex-col text-texto md:w-1/2">
                 <p className="text-sm mb-2 tracking-[.3em]">Recurso</p>
                 <h2 className="text-xl font-semibold mb-2">Desbloqueie Todo o Potencial</h2>
                 <p className="text-sm md:text-base mb-8">
                   Acesso a funcionalidades exclusivas que aumentam sua produtividade, otimizam fluxos e desbloqueiam o verdadeiro potencial da ferramenta.
                 </p>
 
-                <Link to='/premium'>
-                  <button className="w-full border border-principal text-principal font-medium px-4 py-4 hover:text-principalhover rounded-lg transition duration-200">
-                    Conheça a Versão Premium
-                  </button>
+                <Link to='/premium' className="flex w-full justify-center border border-principal text-principal font-medium px-4 py-4 hover:text-principalhover rounded-lg transition duration-200">
+                  Conheça a Versão Premium
                 </Link>
               </div>
 
@@ -138,17 +132,15 @@ function Home() {
             </div>
 
             <div className="shadow-md rounded-lg p-8 flex flex-col md:flex-row gap-6 md:items-end">
-              <div className="text-texto md:w-1/2">
+              <div className="flex flex-col text-texto md:w-1/2">
                 <p className="text-sm mb-2 tracking-[.3em]">Recurso</p>
                 <h2 className="text-xl font-semibold mb-2">Desbloqueie Todo o Potencial</h2>
                 <p className="text-sm md:text-base mb-8">
                   Acesso a funcionalidades exclusivas que aumentam sua produtividade, otimizam fluxos e desbloqueiam o verdadeiro potencial da ferramenta.
                 </p>
 
-                <Link to='/premium'>
-                  <button className="w-full border border-principal text-principal font-medium px-4 py-4 hover:text-principalhover rounded-lg transition duration-200">
-                    Conheça a Versão Premium
-                  </button>
+                <Link to='/premium' className="flex w-full justify-center border border-principal text-principal font-medium px-4 py-4 hover:text-principalhover rounded-lg transition duration-200">
+                  Conheça a Versão Premium
                 </Link>
               </div>
 
@@ -174,10 +166,8 @@ function Home() {
                     Acesso a funcionalidades exclusivas que aumentam sua produtividade, otimizam fluxos e desbloqueiam o verdadeiro potencial da ferramenta.
                   </p>
                 </div>
-                <Link to='/premium'>
-                  <button className="w-full border border-principal text-principal font-medium px-4 py-4 hover:text-principalhover rounded-lg transition duration-200">
-                    Conheça a Versão Premium
-                  </button>
+                <Link to='/premium' className="w-full border border-principal text-principal font-medium px-4 py-4 hover:text-principalhover rounded-lg transition duration-200 text-center">
+                  Conheça a Versão Premium
                 </Link>
               </div>
               <div className="rounded-lg md:my-8 mx-auto flex justify-center w-full">
@@ -194,10 +184,8 @@ function Home() {
                     Acesso a funcionalidades exclusivas que aumentam sua produtividade, otimizam fluxos e desbloqueiam o verdadeiro potencial da ferramenta.
                   </p>
                 </div>
-                <Link to='/premium'>
-                  <button className="w-full border border-principal text-principal font-medium px-4 py-4 hover:text-principalhover rounded-lg transition duration-200">
-                    Conheça a Versão Premium
-                  </button>
+                <Link to='/premium' className="w-full border border-principal text-principal font-medium px-4 py-4 hover:text-principalhover rounded-lg transition duration-200 text-center">
+                  Conheça a Versão Premium
                 </Link>
               </div>
               <div className="rounded-lg md:my-8 mx-auto flex justify-center w-full">
@@ -214,11 +202,9 @@ function Home() {
                     Acesso a funcionalidades exclusivas que aumentam sua produtividade, otimizam fluxos e desbloqueiam o verdadeiro potencial da ferramenta.
                   </p>
                 </div>
-                <button className="w-full border border-principal text-principal font-medium px-4 py-4 hover:text-principalhover rounded-lg transition duration-200">
-                  <Link to='/premium'>
-                    Conheça a Versão Premium
-                  </Link>
-                </button>
+                <Link to='/premium' className="w-full border border-principal text-principal font-medium px-4 py-4 hover:text-principalhover rounded-lg transition duration-200 text-center">
+                  Conheça a Versão Premium
+                </Link>
               </div>
               <div className="rounded-lg md:my-8 mx-auto flex justify-center w-full">
                 <img src="https://placehold.co/600x400" alt="" />
