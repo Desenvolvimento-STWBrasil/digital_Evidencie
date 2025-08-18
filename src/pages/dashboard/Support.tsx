@@ -64,7 +64,7 @@ function Support() {
                 </div>
                 <button
                     type="submit"
-                    className="bg-principal text-white py-4 px-8 rounded-lg font-semibold hover:bg-opacity-90 transition-all"
+                    className="flex md:w-fit w-full bg-principal text-white py-4 px-8 rounded-lg font-semibold hover:bg-opacity-90 transition-all text-center"
                 >
                     Enviar Chamado
                 </button>
