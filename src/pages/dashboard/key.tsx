@@ -45,7 +45,7 @@ function Key() {
             </div>
             <div className="mt-8">
                 {/* Aqui você pode adicionar links para download do software, etc. */}
-                <a href="#" className="bg-principal text-white py-4 px-8 rounded-lg font-semibold hover:bg-opacity-90 transition-all">
+                <a href="#" className="w-full md:w-auto bg-principal text-white py-4 px-8 rounded-lg font-semibold hover:bg-opacity-90 transition-all">
                     Baixar Software
                 </a>
             </div>
