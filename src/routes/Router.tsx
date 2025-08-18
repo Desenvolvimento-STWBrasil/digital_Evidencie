@@ -20,6 +20,7 @@ import About from "../pages/About";
 import HelpCenter from "../pages/dashboard/HelpCenter";
 import Key from "../pages/dashboard/key";
 import Dashboard from "../pages/dashboard/Dashboard";
+import NotFoundPage from "../pages/NotFoundPage";
 
 const router = createBrowserRouter([
     {
@@ -70,6 +71,13 @@ const router = createBrowserRouter([
             {
                 path: '/sobre',
                 element: <About />
+            },
+            
+            // ROTA CORINGA - DEVE SER A ÚLTIMA ROTA DESTE GRUPO!
+            // Ela vai capturar qualquer outra rota que não seja as definidas acima.
+            {
+                path: "*",
+                element: <NotFoundPage />
             },
 
         ]
