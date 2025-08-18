@@ -54,7 +54,7 @@ function Home() {
             <div className="flex flex-col w-full bg-titulo text-white rounded-lg p-8">
               <p className="text-sm text-gray-400 mb-1">Recurso</p>
               <h2 className="text-xl font-semibold mb-3">Desbloqueie Todo o Potencial</h2>
-              <p className="text-sm text-gray-300 mb-4">
+              <p className="text-sm text-gray-300 mb-4 md:text-base">
                 Acesso a funcionalidades exclusivas que aumentam sua produtividade, otimizam fluxos e desbloqueiam o verdadeiro potencial da ferramenta.
               </p>
               {/*   <img
@@ -72,7 +72,7 @@ function Home() {
             <div className="flex flex-col w-full bg-titulo text-white rounded-lg p-8">
               <p className="text-sm text-gray-400 mb-1">Recurso</p>
               <h2 className="text-xl font-semibold mb-3">Desbloqueie Todo o Potencial</h2>
-              <p className="text-sm text-gray-300 mb-4">
+              <p className="text-sm text-gray-300 mb-4 md:text-base">
                 Acesso a funcionalidades exclusivas que aumentam sua produtividade, otimizam fluxos e desbloqueiam o verdadeiro potencial da ferramenta.
               </p>
               {/*   <img
@@ -263,7 +263,7 @@ function Home() {
           <div>
             <p className="text-sm text-texto mb-4 tracking-[.3em]">Recurso</p>
             <h2 className="text-xl text-texto font-semibold mb-6">Desbloqueie Todo o Potencial</h2>
-            <p className="text-sm text-texto mb-4">
+            <p className="text-sm text-texto mb-4 md:text-base">
               Acesso a funcionalidades exclusivas que aumentam sua produtividade, otimizam fluxos e desbloqueiam o verdadeiro potencial da ferramenta.
             </p>
           </div>
@@ -277,7 +277,7 @@ function Home() {
             </Link>
           </div>
           <div>
-            <p className="text-sm text-texto mb-4">
+            <p className="text-sm text-texto mb-4 md:text-base">
               Acesso a funcionalidades exclusivas que aumentam sua produtividade, otimizam fluxos e desbloqueiam o verdadeiro potencial da ferramenta.
             </p>
           </div>

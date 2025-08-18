@@ -107,17 +107,19 @@ export default function DashboardLayout() {
 
             <div className="md:flex pt-14 md:pt-0">
                 {/* Menu Desktop lateral */}
-                <aside className="fixed bottom-0 left-0 right-0 bg-white shadow-lg 
-    md:fixed md:top-0 md:left-0 md:w-64 md:h-screen md:shadow-none">
-                    <div className="flex justify-around p-2 md:flex-col md:p-4 md:mt-4 md:space-y-4">
+                <aside className="fixed bottom-0 left-0 right-0 bg-white shadow-lg md:fixed md:top-0 md:left-0 md:w-64 md:h-screen md:shadow-none flex flex-col">
+                    <div className="flex justify-around p-2 md:flex-col md:p-4 md:mt-4 md:space-y-4 flex-1">
                         <div className="hidden md:block mb-4">
                             <Link to='/dashboard/home'>
                                 <img className="w-10/12 m-auto" src={logo} alt="Logo da Digital Evidence" />
                             </Link>
-                            <p className="text-sm text-texto md:mt-6 font-bold md:text-lg m-auto"><span className="font-normal">Olá,</span> {userName}</p>
+                            <p className="text-sm text-texto md:mt-6 font-bold md:text-lg m-auto">
+                                <span className="font-normal">Olá,</span> {userName}
+                            </p>
                         </div>
 
-                        <div className="w-full flex md:flex-col justify-between m-auto md:gap-6">
+                        <div className="flex md:flex-col justify-between m-auto md:gap-6 flex-1">
+                            {/* Links principais */}
                             <Link to='/dashboard/home' className="w-full flex flex-col items-center text-texto hover:text-principal md:flex-row md:space-x-3">
                                 <Home /><span className="text-xs mt-1 md:text-base md:mt-0">Home</span>
                             </Link>
@@ -144,7 +146,8 @@ export default function DashboardLayout() {
                                 <Headset /><span className="text-xs mt-1 md:text-base md:mt-0">Fale com o Suporte</span>
                             </Link>
 
-                            <div className="hidden md:flex flex-col text-texto hover:text-principal md:space-x-3 md:bottom-4 md:absolute gap-6">
+                            {/* Rodapé sempre no final */}
+                            <div className="hidden md:flex mt-auto flex-col gap-4 text-texto hover:text-principal">
                                 <hr className="my-4 w-full border-t-2" />
 
                                 <Link
@@ -163,11 +166,10 @@ export default function DashboardLayout() {
                                     <span>Sair</span>
                                 </button>
                             </div>
-
-
                         </div>
                     </div>
                 </aside>
+
 
                 {/* Conteúdo */}
                 <main className="flex-1 p-4 md:p-8 pb-20 md:pb-8 md:ml-64">
