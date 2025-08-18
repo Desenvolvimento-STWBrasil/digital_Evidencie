@@ -13,7 +13,7 @@ export default function Modal({ isOpen, onClose, title, children }: ModalProps) 
     return (
         // Fundo semi-transparente (backdrop)
         <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
-            /* Container do Modal */
+            {/* Container do Modal */}
             <div className="bg-white rounded-lg shadow-xl p-6 w-full max-w-md">
                 <div className="flex justify-between items-center mb-4">
                     <h2 className="text-2xl font-bold text-titulo">{title}</h2>
