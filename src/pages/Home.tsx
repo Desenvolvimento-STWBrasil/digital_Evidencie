@@ -100,7 +100,7 @@ function Home() {
 
       {/* --- Seção de Recursos Principais */}
       <section className="md:py-16 bg-gray-50">
-        <div className="container mx-auto md:px-6">
+        <div className="container mx-auto md:px-6 p-4">
           <div className="text-start mb-6">
             <h2 className="text-3xl md:text-4xl font-bold text-titulo">
               Recursos Principais
