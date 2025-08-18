@@ -88,7 +88,7 @@ export default function DashboardLayout() {
                     <div className="flex flex-col w-full text-texto hover:text-principal md:space-x-3 md:bottom-4 md:absolute gap-6">
                         <hr className="w-full border-t-2" />
 
-                        <Link to='/dashboard/#' onClick={() => setMenuOpen(false)} className="flex items-center space-x-2 text-texto hover:text-principal">
+                        <Link to='/dashboard/configuracao' onClick={() => setMenuOpen(false)} className="flex items-center space-x-2 text-texto hover:text-principal">
                             <Cog />
                             <span>Configurações</span>
                         </Link>
