@@ -81,8 +81,14 @@ function Login() {
                     Entrar
                 </button>
 
-                <div className="mt-14">
-                    <p className="w-full text-texto text-center">Não tem uma conta? <a href="/cadastro" className="text-principal">Cadastre-se</a></p>
+                <div className="mb-4 text-end">
+
+                </div>
+
+                <div className="mt-14 flex justify-center">
+                    <Link to="/cadastro" className="w-full text-texto text-center">
+                        Não tem uma conta? <span className="text-principal">Cadastre-se</span>
+                    </Link>
                 </div>
             </form>
         </div>
