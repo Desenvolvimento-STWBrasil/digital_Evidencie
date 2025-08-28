@@ -1,6 +1,6 @@
 import { Facebook, Instagram, Menu, SquareArrowOutUpRight, Twitter, X } from "lucide-react"
 import { useState } from "react"
-import { Link } from "react-router-dom"
+import { Link, useLocation } from "react-router-dom"
 
 /* Logo */
 import logo from '../../public/Desktop_logo_Digital_evidence.png'
@@ -9,6 +9,8 @@ function Header() {
 
     // 1. Estado para controlar a visibilidade do menu mobile
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+    const location = useLocation();
 
     return (
         // 'relative' é importante para que o menu overlay se posicione corretamente
@@ -24,7 +26,18 @@ function Header() {
                 'md:flex': A partir de telas médias ('md'), ele se torna visível e com 'display: flex'.
                 */}
                 <div className="hidden md:flex items-center space-x-4">
-                    <Link to='/login' className="text-principal hover:text-principalhover transition-colors border px-6 py-2 text-center rounded">Login</Link>
+                    {/* <Link to='/login' className="text-principal hover:text-principalhover transition-colors border px-6 py-2 text-center rounded">Login</Link> */}
+
+                    {/* className="border border-principal text-principal text-center px-4 py-4 rounded-md font-semibold hover:bg-principal hover:text-white transition-colors" */}
+
+                    {location.pathname === '/login' ? (
+                        <Link to="/cadastro" onClick={() => setIsMenuOpen(false)} className="text-principal  border px-6 py-2 text-center rounded hover:bg-principal hover:text-white transition-colors">
+                            Cadastre-se
+                        </Link>
+                    ) : (
+                        <Link to='/login' className="text-principal  border px-6 py-2 text-center rounded hover:bg-principal hover:text-white transition-colors">Login</Link>
+                    )}
+
                 </div>
 
                 {/* Ícone de Menu Hambúrguer para Telas Pequenas (Mobile) */}
